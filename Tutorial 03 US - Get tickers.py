@@ -11,7 +11,7 @@ tickers = tickersRawData['Symbol'].tolist()
 
 # Step 2. Save the ticker list to a local file
 dateToday = datetime.datetime.today().strftime('%Y%m%d')
-file = '../02. Data/00. TickerListUS/TickerList'+dateToday+'.csv'
+file = '../StockData/TickerListUS/TickerList/'+dateToday+'.csv'
 tickersRawData.to_csv(file, index=False)
 print ('Tickers saved.')
 
