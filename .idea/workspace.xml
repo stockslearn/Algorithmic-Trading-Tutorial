@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b6f9d6c-173d-4374-b2d2-0017c04f7afc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tutorial 03 CN - Get tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tutorial 03 CN - Get tickers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tutorial 03 US - Get tickers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tutorial 03 US - Get tickers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tutorial 04 CN - Get intraday.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tutorial 04 CN - Get intraday.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutorial 06 - Candle stick plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tutorial 06 - Candle stick plot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,46 +13,20 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Algorithmic_Trading_Tutorial$Tutorial_10_US___API.coverage" NAME="Tutorial 10 US - API Coverage Results" MODIFIED="1553677369777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithmic_Trading_Tutorial$Tutorial_06___Candle_stick_plot.coverage" NAME="Tutorial 06 - Candle stick plot Coverage Results" MODIFIED="1553678161092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithmic_Trading_Tutorial$Tutorial_06___Candle_stick_plot.coverage" NAME="Tutorial 06 - Candle stick plot Coverage Results" MODIFIED="1553737291021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithmic_Trading_Tutorial$Tutorial_03_US___Get_tickers.coverage" NAME="Tutorial 03 US - Get tickers Coverage Results" MODIFIED="1553681125415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithmic_Trading_Tutorial$Tutorial_03_CN___Get_tickers.coverage" NAME="Tutorial 03 CN - Get tickers Coverage Results" MODIFIED="1553681701580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithmic_Trading_Tutorial$Tutorial_08___A_more_complecated_network.coverage" NAME="Tutorial 08 - A more complecated network Coverage Results" MODIFIED="1553678303475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithmic_Trading_Tutorial$Tutorial_04_CN___Get_intraday.coverage" NAME="Tutorial 04 CN - Get intraday Coverage Results" MODIFIED="1553679384667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithmic_Trading_Tutorial$Tutorial_04_CN___Get_intraday.coverage" NAME="Tutorial 04 CN - Get intraday Coverage Results" MODIFIED="1553683309989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithmic_Trading_Tutorial$Tutorial_04_US___Get_intraday.coverage" NAME="Tutorial 04 US - Get intraday Coverage Results" MODIFIED="1553678056144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tutorial 03 CN - Get tickers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tutorial 04 US - Get intraday.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-122">
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tutorial 04 CN - Get intraday.py">
+        <entry file="file://$PROJECT_DIR$/Tutorial 06 - Candle stick plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -68,16 +40,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Tutorial 03 US - Get tickers.py" />
-        <option value="$PROJECT_DIR$/Tutorial 04 CN - Get intraday.py" />
         <option value="$PROJECT_DIR$/Tutorial 03 CN - Get tickers.py" />
+        <option value="$PROJECT_DIR$/Tutorial 04 CN - Get intraday.py" />
+        <option value="$PROJECT_DIR$/Tutorial 06 - Candle stick plot.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="628" />
-    <option name="y" value="160" />
-    <option name="width" value="1230" />
-    <option name="height" value="737" />
+    <option name="x" value="204" />
+    <option name="y" value="23" />
+    <option name="width" value="1168" />
+    <option name="height" value="761" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -117,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Tutorial 03 CN - Get tickers">
+  <component name="RunManager" selected="Python.Tutorial 06 - Candle stick plot">
     <configuration name="Tutorial 03 CN - Get tickers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithmic-Trading-Tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Tutorial 06 - Candle stick plot" />
+        <item itemvalue="Python.Tutorial 04 CN - Get intraday" />
         <item itemvalue="Python.Tutorial 03 CN - Get tickers" />
         <item itemvalue="Python.Tutorial 03 US - Get tickers" />
-        <item itemvalue="Python.Tutorial 04 CN - Get intraday" />
         <item itemvalue="Python.Tutorial 08 - A more complecated network" />
-        <item itemvalue="Python.Tutorial 06 - Candle stick plot" />
       </list>
     </recent_temporary>
   </component>
@@ -249,23 +222,23 @@
       <option name="presentableId" value="Default" />
       <updated>1553676882198</updated>
       <workItem from="1553676883935" duration="618000" />
-      <workItem from="1553677946380" duration="3728000" />
+      <workItem from="1553677946380" duration="6603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4346000" />
+    <option name="totallyTimeSpent" value="7221000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="628" y="160" width="1230" height="737" extended-state="0" />
+    <frame x="232" y="23" width="1074" height="761" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25420874" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36821705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1751938" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5037369" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -289,7 +262,7 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="NONE" type="python-line">
           <url>file://$PROJECT_DIR$/Tutorial 04 CN - Get intraday.py</url>
           <line>16</line>
           <option name="timeStamp" value="1" />
@@ -311,10 +284,10 @@
     <entry file="file://$PROJECT_DIR$/TickerList_20190327.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tutorial 03 CN - Get tickers.py">
+    <entry file="file://$PROJECT_DIR$/Tutorial 04 CN - Get intraday.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="154">
+          <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -330,13 +303,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tutorial 04 CN - Get intraday.py">
+    <entry file="file://$PROJECT_DIR$/Tutorial 03 CN - Get tickers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tutorial 05 - Daily Intraday Downloader.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tutorial 06 - Candle stick plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

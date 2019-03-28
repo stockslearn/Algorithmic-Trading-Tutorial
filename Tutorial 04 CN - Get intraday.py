@@ -35,7 +35,7 @@ print ('Tickers saved.')
 for i, ticker in enumerate(tickers):
 	try:
 		print ('Intraday', i, '/', len(tickers))
-		stockPriceIntraday(ticker, folder='../02. Data/01. IntradayCN')
+		stockPriceIntraday(ticker, folder='../02 StockData/01 IntradayCN')
 	except:
 		pass
 print ('Intraday for all stocks got.')
