@@ -31,7 +31,7 @@ def stockPricePlot(ticker):
 
 	# Step 3.2. Subplot 2: candle stick plot
 	subplot2 = plt.subplot2grid((2,1), (1,0), rowspan=1, colspan=1, sharex=subplot1)
-	mpl_finance.candlestick_ohlc(ax=subplot2, quotes=ohlc.values, width=0.01, colorup='g', colordown='r')
+	mpl_finance.candlestick_ohlc(ax=subplot2, quotes=ohlc.values, width=0.01, colorup='g', colordown='r')# 宽度 上升期 下降期
 	plt.show()
 
 stockPricePlot('600031')

@@ -4,7 +4,7 @@ import datetime
 import os
 
 def stockPriceIntraday(ticker, folder):
-	# Step 1. Get intraday data online
+	# Step 1. Get intraday data online   5分钟
 	intraday = tushare.get_hist_data(ticker, ktype='5')
 
 	# Step 2. If the history exists, append

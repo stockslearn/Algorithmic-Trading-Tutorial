@@ -16,20 +16,20 @@ def dataDeNormalization(data, base):
 
 def getDeepLearningData(ticker):
 	# Step 1. Load data
-	data = pandas.read_csv('../02. Data/01. IntradayUS/'+ticker+'.csv')['close'].tolist()
+	data = pandas.read_csv('../02 StockData/01 IntradayCN/'+ticker+'.csv')['close'].tolist()
 
-	# Step 2. Building Training data
+	# Step 2. Building Training data 训练机
 	dataTraining = []
 	for i in range(len(data)-CONST_TESTING_CASES*CONST_TRAINING_SEQUENCE_LENGTH):
 		dataSegment = data[i:i+CONST_TRAINING_SEQUENCE_LENGTH+1]
 		dataTraining.append(dataNormalization(dataSegment))
 
 	dataTraining = numpy.array(dataTraining)
-	numpy.random.shuffle(dataTraining)
+	numpy.random.shuffle(dataTraining) #随机
 	X_Training = dataTraining[:, :-1]
 	Y_Training = dataTraining[:, -1]
 
-	# Step 3. Building Testing data
+	# Step 3. Building Testing data  测试机
 	X_Testing = []
 	Y_Testing_Base = []
 	for i in range(CONST_TESTING_CASES, 0, -1):
@@ -44,7 +44,7 @@ def getDeepLearningData(ticker):
 
 	# Step 4. Reshape for deep learning
 	X_Training = numpy.reshape(X_Training, (X_Training.shape[0], X_Training.shape[1], 1))
-	X_Testing = numpy.reshape(X_Testing, (X_Testing.shape[0], X_Testing.shape[1], 1))
+	X_Testing = numpy.reshape(X_Testing, (X_Testing.shape[0], X_Testing.shape[1], 1))  #indexError:tuple index out of range
 
 	return X_Training, Y_Training, X_Testing, Y_Testing, Y_Testing_Base
 
@@ -114,4 +114,4 @@ def predictLSTM(ticker):
 	# Step 6. Plot
 	plotResults(predictions, Y_Testing)
 
-predictLSTM(ticker='NVDA')
+predictLSTM(ticker='600031')
